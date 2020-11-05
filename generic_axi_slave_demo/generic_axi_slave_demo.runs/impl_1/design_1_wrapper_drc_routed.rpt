@@ -1,0 +1,138 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+| Date         : Thu Nov  5 12:27:38 2020
+| Host         : Osaze-Desktop running 64-bit major release  (build 9200)
+| Command      : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 20
++--------+----------+------------------------+------------+
+| Rule   | Severity | Description            | Violations |
++--------+----------+------------------------+------------+
+| DPIP-1 | Warning  | Input pipelining       | 12         |
+| DPOP-1 | Warning  | PREG Output pipelining | 4          |
+| DPOP-2 | Warning  | MREG Output pipelining | 4          |
++--------+----------+------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-1#1 Warning
+Input pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[0].servo_controller_instance/high_pulse_width_ns input design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[0].servo_controller_instance/high_pulse_width_ns/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[0].servo_controller_instance/high_pulse_width_ns input design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[0].servo_controller_instance/high_pulse_width_ns/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[0].servo_controller_instance/high_pulse_width_ns input design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[0].servo_controller_instance/high_pulse_width_ns/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[1].servo_controller_instance/high_pulse_width_ns input design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[1].servo_controller_instance/high_pulse_width_ns/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[1].servo_controller_instance/high_pulse_width_ns input design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[1].servo_controller_instance/high_pulse_width_ns/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[1].servo_controller_instance/high_pulse_width_ns input design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[1].servo_controller_instance/high_pulse_width_ns/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[2].servo_controller_instance/high_pulse_width_ns input design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[2].servo_controller_instance/high_pulse_width_ns/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[2].servo_controller_instance/high_pulse_width_ns input design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[2].servo_controller_instance/high_pulse_width_ns/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[2].servo_controller_instance/high_pulse_width_ns input design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[2].servo_controller_instance/high_pulse_width_ns/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#10 Warning
+Input pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[3].servo_controller_instance/high_pulse_width_ns input design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[3].servo_controller_instance/high_pulse_width_ns/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#11 Warning
+Input pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[3].servo_controller_instance/high_pulse_width_ns input design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[3].servo_controller_instance/high_pulse_width_ns/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#12 Warning
+Input pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[3].servo_controller_instance/high_pulse_width_ns input design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[3].servo_controller_instance/high_pulse_width_ns/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[0].servo_controller_instance/high_pulse_width_ns output design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[0].servo_controller_instance/high_pulse_width_ns/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[1].servo_controller_instance/high_pulse_width_ns output design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[1].servo_controller_instance/high_pulse_width_ns/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#3 Warning
+PREG Output pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[2].servo_controller_instance/high_pulse_width_ns output design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[2].servo_controller_instance/high_pulse_width_ns/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#4 Warning
+PREG Output pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[3].servo_controller_instance/high_pulse_width_ns output design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[3].servo_controller_instance/high_pulse_width_ns/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[0].servo_controller_instance/high_pulse_width_ns multiplier stage design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[0].servo_controller_instance/high_pulse_width_ns/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[1].servo_controller_instance/high_pulse_width_ns multiplier stage design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[1].servo_controller_instance/high_pulse_width_ns/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[2].servo_controller_instance/high_pulse_width_ns multiplier stage design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[2].servo_controller_instance/high_pulse_width_ns/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#4 Warning
+MREG Output pipelining  
+DSP design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[3].servo_controller_instance/high_pulse_width_ns multiplier stage design_1_i/axi_rc_servo_control_0/U0/generate_servo_controllers[3].servo_controller_instance/high_pulse_width_ns/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+

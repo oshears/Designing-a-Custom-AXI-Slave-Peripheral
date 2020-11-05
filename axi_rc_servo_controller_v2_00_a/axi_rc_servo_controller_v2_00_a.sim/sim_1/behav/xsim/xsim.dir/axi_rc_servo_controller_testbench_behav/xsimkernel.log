@@ -2,3 +2,6 @@ Running: xsim.dir/axi_rc_servo_controller_testbench_behav/xsimk.exe -simmode gui
 Design successfully loaded
 Design Loading Memory Usage: 11308 KB (Peak: 11308 KB)
 Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 19536 KB (Peak: 19536 KB)
+Simulation CPU Usage: 170639 ms

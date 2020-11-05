@@ -2,8 +2,8 @@
 # Webtalk v2020.1.1 (64-bit)
 # SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
 # IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
-# Start of session at: Thu Nov  5 08:55:27 2020
-# Process ID: 2176
+# Start of session at: Thu Nov  5 11:43:39 2020
+# Process ID: 14664
 # Current directory: D:/Xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a/axi_rc_servo_controller_v2_00_a.sim/sim_1/behav/xsim
 # Command line: wbtcv.exe -mode batch -source D:/Xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a/axi_rc_servo_controller_v2_00_a.sim/sim_1/behav/xsim/xsim.dir/axi_rc_servo_controller_testbench_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: D:/Xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a/axi_rc_servo_controller_v2_00_a.sim/sim_1/behav/xsim/webtalk.log

@@ -169,7 +169,7 @@
       <spirit:parameters>
         <spirit:parameter>
           <spirit:name>POLARITY</spirit:name>
-          <spirit:value spirit:id="BUSIFPARAM_VALUE.S_AXI_ARESETN.POLARITY" spirit:choiceRef="choice_list_74b5137e">ACTIVE_LOW</spirit:value>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S_AXI_ARESETN.POLARITY" spirit:choiceRef="choice_list_9d8b0d81">ACTIVE_LOW</spirit:value>
         </spirit:parameter>
       </spirit:parameters>
     </spirit:busInterface>
@@ -661,7 +661,7 @@
   </spirit:model>
   <spirit:choices>
     <spirit:choice>
-      <spirit:name>choice_list_74b5137e</spirit:name>
+      <spirit:name>choice_list_9d8b0d81</spirit:name>
       <spirit:enumeration>ACTIVE_HIGH</spirit:enumeration>
       <spirit:enumeration>ACTIVE_LOW</spirit:enumeration>
     </spirit:choice>
@@ -801,7 +801,7 @@
       <xilinx:displayName>axi_rc_servo_controller_v1_0</xilinx:displayName>
       <xilinx:definitionSource>package_project</xilinx:definitionSource>
       <xilinx:coreRevision>2</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2020-11-05T16:32:31Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2020-11-05T17:15:28Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@6e98d4ad_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@3d7981e4_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
@@ -832,6 +832,16 @@
         <xilinx:tag xilinx:name="ui.data.coregen.dd@1ba9db8b_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@ae40477_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@1d8874c4_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b0d1313_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7e7f3662_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6427ba29_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@363cdc50_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48659dd5_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3bf35ab6_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@674a57e2_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f8b2553_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@14d6c5b7_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7de3ac85_ARCHIVE_LOCATION">d:/xilinx/projects/zedboard_custom_axi_slave_demo/axi_rc_servo_controller_v2_00_a</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>

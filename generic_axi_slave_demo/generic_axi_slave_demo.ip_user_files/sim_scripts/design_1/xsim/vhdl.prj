@@ -1,0 +1,13 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_rst_ps7_0_100M_0/sim/design_1_rst_ps7_0_100M_0.vhd" \
+
+vhdl axi_rc_servo_controller  \
+"../../../bd/design_1/ipshared/31a8/axi_rc_servo_controller_v2_00_a.srcs/sources_1/imports/vhdl/servo_controller_functions_pkg.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ipshared/31a8/axi_rc_servo_controller_v2_00_a.srcs/sources_1/imports/vhdl/clock_divider.vhd" \
+"../../../bd/design_1/ipshared/31a8/axi_rc_servo_controller_v2_00_a.srcs/sources_1/imports/vhdl/servo_controller.vhd" \
+"../../../bd/design_1/ipshared/31a8/axi_rc_servo_controller_v2_00_a.srcs/sources_1/imports/vhdl/axi_rc_servo_controller.vhd" \
+"../../../bd/design_1/ip/design_1_axi_rc_servo_control_0_0/sim/design_1_axi_rc_servo_control_0_0.vhd" \
+
+nosort
