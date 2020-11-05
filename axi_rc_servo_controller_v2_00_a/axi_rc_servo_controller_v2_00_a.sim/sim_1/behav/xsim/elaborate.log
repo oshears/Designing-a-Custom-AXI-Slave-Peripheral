@@ -1,0 +1,26 @@
+Vivado Simulator 2020.1.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 61cce61000874ef685e865093eb9cacc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_rc_servo_controller -L secureip --snapshot axi_rc_servo_controller_testbench_behav xil_defaultlib.axi_rc_servo_controller_testbench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package axi_rc_servo_controller.servo_controller_functions_pkg
+Compiling architecture behavioral of entity xil_defaultlib.servo_controller [\servo_controller(clock_period_n...]
+Compiling architecture behavioral of entity xil_defaultlib.clock_divider [\clock_divider(slow_clock_period...]
+Compiling architecture imp of entity xil_defaultlib.axi_rc_servo_controller [\axi_rc_servo_controller(c_s_axi...]
+Compiling architecture behavioral of entity xil_defaultlib.AXI_ADDRESS_CONTROL_CHANNEL_model [axi_address_control_channel_mode...]
+Compiling architecture behavioral of entity xil_defaultlib.AXI_READ_DATA_CHANNEL_model [axi_read_data_channel_model_defa...]
+Compiling architecture behavioral of entity xil_defaultlib.AXI_WRITE_DATA_CHANNEL_model [axi_write_data_channel_model_def...]
+Compiling architecture behavioral of entity xil_defaultlib.AXI_WRITE_DATA_RESPONSE_CHANNEL_model [axi_write_data_response_channel_...]
+Compiling architecture behavioral of entity xil_defaultlib.AXI_lite_master_transaction_model [axi_lite_master_transaction_mode...]
+Compiling architecture behaviour of entity xil_defaultlib.axi_rc_servo_controller_testbenc...
+Built simulation snapshot axi_rc_servo_controller_testbench_behav

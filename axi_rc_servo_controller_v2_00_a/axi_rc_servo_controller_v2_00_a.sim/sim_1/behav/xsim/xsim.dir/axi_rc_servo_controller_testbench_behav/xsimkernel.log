@@ -1,0 +1,4 @@
+Running: xsim.dir/axi_rc_servo_controller_testbench_behav/xsimk.exe -simmode gui -wdb axi_rc_servo_controller_testbench_behav.wdb -simrunnum 0 -socket 50922
+Design successfully loaded
+Design Loading Memory Usage: 11308 KB (Peak: 11308 KB)
+Design Loading CPU Usage: 15 ms

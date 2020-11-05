@@ -1,0 +1,1 @@
+-wto "61cce61000874ef685e865093eb9cacc" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "axi_rc_servo_controller" -L "secureip" --snapshot "axi_rc_servo_controller_testbench_behav" "xil_defaultlib.axi_rc_servo_controller_testbench" -log "elaborate.log" 
